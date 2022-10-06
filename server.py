@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind((ip, port))
-    server.listen(5)
+    server.listen(2)
 
     while True:
         client, address = server.accept()

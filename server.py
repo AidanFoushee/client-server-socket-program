@@ -9,14 +9,18 @@ if __name__ == '__main__':
     server.bind((ip, port))
     server.listen(2)
 
+    story = ''
+
     while True:
         client, address = server.accept()
         print(f'Connection Established - {address[0]}:{address[1]}')
+        print()
 
         string = client.recv(1024)
         string = string.decode('utf-8')
-        string = string.upper()
-        print(string)
-        client.send(bytes(string, 'utf-8')) 
+        string = string.title()
+        story = story + ' ' + string
+        print(story)
+        client.send(bytes(story, 'utf-8')) 
 
-        client.close()
+

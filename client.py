@@ -8,8 +8,9 @@ if __name__ == '__main__':
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.connect((ip, port))
     
-    string = input('Enter string: ')
+    string = input('Enter the next word in the story: ')
+    print()
     server.send(bytes(string, 'utf-8'))
     buffer = server.recv(1024)
     buffer = buffer.decode('utf-8')
-    print(f'Server: {buffer}')
+    print(f'Story: {buffer}')

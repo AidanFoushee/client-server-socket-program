@@ -21,6 +21,6 @@ if __name__ == '__main__':
         string = string.title()
         story = story + ' ' + string
         print(story)
-        client.send(bytes(story, 'utf-8')) 
+        client.send(bytes(story, 'utf-8'))
 
-
+        client.close()

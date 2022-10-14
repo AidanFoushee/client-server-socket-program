@@ -1,10 +1,10 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I started creating this project to further my learning about networking and to see what I can create.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+I wrote 2 programs, one for the server and one for the client. The program works by running the server and then connecting the clients to it. You can do this by navigating in the terminal to the directory where the server/client program is, and then running the command 'python3 server.py' or 'python3 client.py' to run the corrosponding programs. The server needs to be running before the client, so that the client can connect to the server. You will know that the client is connected to the server when you see 'Connection Established' printed in the server terminal. The software is a story making game, where 2 clients can alternate sending words to the server to make a story.
 
-{Describe your purpose for writing this software.}
+My purpose for writing this software is to demonstrate my ability to learn something new and to further my learning and expand my knowledge.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
 
@@ -12,23 +12,25 @@
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
+client/server
 
-{Identify if you are using TCP or UDP and what port numbers are used.}
+I am using TCP using port number 1234
 
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+The format of the message being sent back and forth are just strings
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+VS Code
 
-{Describe the programming language that you used and any libraries.}
+Python
+
+Socket Library
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Python Server Library](https://docs.python.org/3.6/library/socketserver.html)
+* [Python Socket Library](https://docs.python.org/3.6/library/socket.html)
 
 # Future Work
 

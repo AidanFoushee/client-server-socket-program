@@ -6,9 +6,7 @@ I wrote 2 programs, one for the server and one for the client. The program works
 
 My purpose for writing this software is to demonstrate my ability to learn something new and to further my learning and expand my knowledge.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/gmG4C-htNL8)
 
 # Network Communication
 
@@ -35,6 +33,7 @@ Socket Library
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Fix story title problem
+* Make it so more than one story can be saved at a time
+* Add error handlers
+* Incorporate a cloud database to store the stories
